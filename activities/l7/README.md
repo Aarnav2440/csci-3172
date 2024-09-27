@@ -5,7 +5,7 @@
 * *Date Created*: 27 09 2024
 * *Last Modification Date*: 27 09 2024
 * *Lab URL*: https://web.cs.dal.ca/~alakhanpal/csci3172/activities/l7
-* *Gitlab URL*: https://git.cs.dal.ca/alakhanpal/csci-3172/activities/l7
+* *Gitlab URL*: https://git.cs.dal.ca/alakhanpal/csci-3172.git
 
 
 ## Authors
