@@ -1,0 +1,20 @@
+h1  {
+    text-align: center;
+}
+
+body {
+    background-color: khaki;
+}
+#calender{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+#number-form{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
