@@ -4,7 +4,7 @@
 
 * *Date Created*: 10 10 2024
 * *Last Modification Date*: 10 10 2024
-* *Lab URL*: https://web.cs.dal.ca/~alakhanpal/csci3172/labs/lab3/
+* *Lab URL*: https://web.cs.dal.ca/~alakhanpal/csci3172/labs/lab4/
 * *Gitlab URL*: https://git.cs.dal.ca/alakhanpal/csci-3172.git
 
 
