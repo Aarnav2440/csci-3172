@@ -1,0 +1,16 @@
+h1  {
+    text-align: center;
+}
+
+body {
+    background-color: khaki;
+}
+.registration{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border: solid 10px black !important;
+    
+}
+

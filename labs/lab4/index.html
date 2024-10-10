@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Lab-4: Js and DOM</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="L4-page">
+			<section id="description">
+				<h1>Lab-4</h1>
+			</section>
+			<div class="form-content">
+
+				<form class="registration" id="register" onsubmit="validate(event)">
+					<h3>Registration Form</h3>
+                    <!-- First Name Input -->
+					<label for="firstName">First Name</label>
+					<span class="format">* Letters only (non-case-sensitive)</span>
+					<br>
+					<input type="text" name="firstName" id="firstName">
+					<br>
+
+                    <!-- Last Name Input -->
+					<label for="lastName">Last Name</label>
+					<span class="format">* Letters only (non-case-sensitive)</span>
+					<br>
+					<input type="text" name="lastName" id="lastName">
+					<br>
+
+                    <!-- Email Input -->
+					<label for="email">Email</label>
+					<span class="format">* Must follow the traditional email format</span>
+					<br>
+					<input type="email" name="email" id="email">
+					<br>
+
+                    <!-- Gender Input (Radio buttons)-->
+					<p>Please select your gender</p>
+                    <input type="radio" name="gender" id="male" value = "Male">
+                    <label for = "male">Male</label>					
+					<br>
+                    <input type="radio" name="gender" id="female" value = "Female">
+                    <label for = "female">Female</label>
+					<br>
+                    <input type="radio" name="gender" id="non-binary" value = "Non-Binary">
+                    <label for = "non-binary">Non-Binary</label>			
+					<br>
+                    <br>
+
+                    <!-- Country Input(select option)-->
+                    <label for="country">Choose your Country:</label>
+                        <select name = "country" id = "country">
+                            <option value = "canada">Canada</option>
+                            <option value = "india">India</option>
+                            <option value = "america">America</option>
+                            <option value = "germany">Germany</option>
+                        </select>
+                    <br><br>
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+            <div>
+                <h2 id = "submitted-content">Information</h2>
+                <table class = "table">
+                    <tbody id = "formDataTable">
+
+                    </tbody>
+                </table>
+            </div>
+
+
+		</div>
+		<script src="js/script.js" defer></script>
+	</body>
+</html>
+
