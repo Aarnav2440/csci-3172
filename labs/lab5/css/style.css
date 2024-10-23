@@ -1,0 +1,22 @@
+h1  {
+    text-align: center;
+}
+h2 {
+    text-align:left;
+}
+body {
+    background-color: khaki;
+}
+.calculator{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border: solid 10px black !important;
+    
+}
+.form-content, .L5-page{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px; 
+  }
